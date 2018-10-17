@@ -33,7 +33,7 @@ public class CountChange {
             //3 两种组合相加
             return calculate(amount, kindOfCoin - 1) +
                     calculate(amount - kindOfConins.get(kindOfCoin), kindOfCoin);
-        }
+        }l's
     }
 
     public static void main(String[] args) {
