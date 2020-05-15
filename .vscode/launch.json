@@ -1,0 +1,90 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BalancedStringSplit",
+            "request": "launch",
+            "mainClass": "com.rock.leetcode.BalancedStringSplit",
+            "projectName": "leetcode_664dc88"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RomanToInt",
+            "request": "launch",
+            "mainClass": "com.rock.leetcode.RomanToInt",
+            "projectName": "leetcode_664dc88"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsPralindrome",
+            "request": "launch",
+            "mainClass": "com.rock.leetcode.IsPralindrome",
+            "projectName": "leetcode_664dc88"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AddTwoNumbers<leetcode_664dc88>",
+            "request": "launch",
+            "mainClass": "com.rock.leetcode.AddTwoNumbers",
+            "projectName": "leetcode_664dc88"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountChange<leetcode_664dc88>",
+            "request": "launch",
+            "mainClass": "com.rock.leetcode.CountChange",
+            "projectName": "leetcode_664dc88"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LengthOfLongestSubstring<leetcode_664dc88>",
+            "request": "launch",
+            "mainClass": "com.rock.leetcode.LengthOfLongestSubstring",
+            "projectName": "leetcode_664dc88"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseList<leetcode_664dc88>",
+            "request": "launch",
+            "mainClass": "com.rock.leetcode.ReverseList",
+            "projectName": "leetcode_664dc88"
+        }
+    ]
+}

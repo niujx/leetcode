@@ -40,6 +40,24 @@ public class AddTwoNumbers {
         }
         return root.next;
     }
+
+     public static void main(String[] args) {
+
+        ListNode node=new ListNode(1);
+        node.next = new ListNode(2);
+        node.next.next = new ListNode(3);
+
+        ListNode node1=new ListNode(1);
+        node1.next = new ListNode(2);
+        node1.next.next = new ListNode(3);
+
+        AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+        ListNode n = addTwoNumbers.addTwoNumbers(node,node1);
+        System.out.println(n.val);
+        System.out.println(n.next.val);
+        System.out.println(n.next.next.val);
+        
+    }
 }
 
 class ListNode {
@@ -49,4 +67,5 @@ class ListNode {
     ListNode(int x) {
         val = x;
     }
+
 }
