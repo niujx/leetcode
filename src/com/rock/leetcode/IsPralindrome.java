@@ -1,6 +1,8 @@
 package com.rock.leetcode;
 
-
+/**
+ *  判断回文数字
+ */
 public class IsPralindrome {
 
     public boolean isPralindrome(int x){
